@@ -1,0 +1,121 @@
+@define-color selected-text #ff3a3a;
+@define-color text       #ffffff;
+@define-color base       #1b1112;
+@define-color border     #1b1112;
+@define-color foreground #ff3a3a;
+@define-color background #2B2826;
+@define-color hover      #ff4c4c;
+@define-color accent     #ff3a3a;
+
+* {
+  all: unset;
+  font-family: 'CaskaydiaMono Nerd Font Mono';
+  font-size: 18px;
+  color: @text;
+}
+
+scrollbar {
+  opacity: 0;
+}
+
+.normal-icons {
+  -gtk-icon-size: 16px;
+}
+
+.large-icons {
+  -gtk-icon-size: 32px;
+}
+
+.box-wrapper {
+  background: @base;
+  padding: 20px;
+  border: 1.5px solid @border;
+  border-radius: 16px;
+}
+
+.preview-box {
+}
+
+.box {
+}
+
+.search-container {
+  background: @base;
+  padding: 10px;
+}
+
+.input placeholder {
+  opacity: 0.5;
+}
+
+.input {
+}
+
+.input:focus,
+.input:active {
+  box-shadow: none;
+  outline: none;
+}
+
+.content-container {
+}
+
+.placeholder {
+}
+
+.scroll {
+}
+
+.list {
+}
+
+child,
+child > * {
+}
+
+child:hover .item-box {
+}
+
+child:selected .item-box {
+}
+
+child:selected .item-box * {
+  color: @selected-text;
+}
+
+.item-box {
+  padding-left: 14px;
+}
+
+.item-text-box {
+  all: unset;
+  padding: 14px 0;
+}
+
+.item-text {
+}
+
+.item-subtext {
+  font-size: 0px;
+  min-height: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.item-image {
+  margin-right: 14px;
+  -gtk-icon-transform: scale(0.9);
+}
+
+.current {
+  font-style: italic;
+}
+
+.keybind-hints {
+  background: @background;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.preview {
+}
