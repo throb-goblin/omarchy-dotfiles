@@ -33,8 +33,8 @@ move ~/.config/hypr/xdph.conf             hypr/.config/hypr/xdph.conf
 move ~/.config/waybar/config.jsonc        waybar/.config/waybar/config.jsonc
 move ~/.config/waybar/style.css           waybar/.config/waybar/style.css
 
-# Omarchy theme (amberbyte only)
-move ~/.config/omarchy/themes/amberbyte   omarchy-theme/.config/omarchy/themes/amberbyte
+# Omarchy theme
+move ~/.config/omarchy/themes/gooner-red   omarchy-theme/.config/omarchy/themes/gooner-red
 
 # Mimeapps (default browser + app associations)
 move ~/.config/mimeapps.list              mimeapps/.config/mimeapps.list
