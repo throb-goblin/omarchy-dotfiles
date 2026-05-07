@@ -1,0 +1,38 @@
+[font]
+[font.normal]
+family = "CaskaydiaMono Nerd Font Mono"
+
+[colors]
+
+[colors.primary]
+background    = "#1b1112"
+foreground    = "#ffffff"
+dim_foreground = "#503131"
+
+[colors.cursor]
+text   = "#1b1112"
+cursor = "#ffffff"
+
+[colors.selection]
+text       = "CellForeground"
+background = "#372223"
+
+[colors.normal]
+black   = "#1A0E0E"
+red     = "#b33a3a"
+green   = "#d13a3a"
+yellow  = "#9e3a3a"
+blue    = "#ad3a3a"
+magenta = "#c3c8d0"
+cyan    = "#8f949c"
+white   = "#b9bec6"
+
+[colors.bright]
+black   = "#4b515b"
+red     = "#ff3a3a"
+green   = "#d13a3a"
+yellow  = "#9e3a3a"
+blue    = "#ad3a3a"
+magenta = "#c3c8d0"
+cyan    = "#8f949c"
+white   = "#eceff2"
